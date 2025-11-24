@@ -19,9 +19,10 @@
   flex-direction: column;
   background-image: url("/images/odin-logo.avif");
   background-size: cover;
-  width: 30%;
+  width: 25%;
   padding-top: 7rem;
   padding-bottom: 0;
+  flex-shrink: 0;
 }
 
 .logo-section{
@@ -43,9 +44,92 @@
   color: white;
   margin-top: auto;
   padding-bottom: 1rem ;
+  font-family:Arial, Helvetica, sans-serif ;
 }
 
 .photo-credit a{
   font-weight: bold;
   color: white;
+}
+
+.content-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 5vh;
+}
+
+.content-text p{
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  margin-left: -5vh;   
+  margin-right: -23vh;
+}
+
+.form-title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 5vh;
+  margin-bottom: 2vh;
+  margin-top: 1rem;
+}
+
+.form-group{
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.form-row{
+  width: calc(50% - 10px);   
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row label{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  color: rgb(136, 136, 136);
+  margin-left: 5vh;
+  padding-top: 1vh;
+}
+
+.form-row input{
+  width: 35%;
+  height: 60%;
+  margin: 2%;
+  margin-left: 5vh;
+}
+
+.submit{
+  margin-top: -5vh;
+}
+.submit_btn{
+  background-color: #596D48;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  height: 2.2rem;
+  width: 8rem;
+  border-radius: 10px;
+  border: 0;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+  flex-grow: 0;
+}
+
+.login-btn{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:560;
+}
+
+.login-btn p a{
+  color: #596D48;
 }
