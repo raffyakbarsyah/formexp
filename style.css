@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "norsebold";
+  src: url("/fonts/norse-bold-webfont.woff2") format("woff2"),
+    url("fonts/norse-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  margin: 0;
+}
+.container{
+  display: flex;
+  height: 100vh;
+}
+
+.hero-section{
+  display: flex;
+  flex-direction: column;
+  background-image: url("/images/odin-logo.avif");
+  background-size: cover;
+  width: 30%;
+  padding-top: 7rem;
+  padding-bottom: 0;
+}
+
+.logo-section{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+  padding: ;
+}
+
+.logo-section p {
+  font-family: "norsebold";
+  font-size: 60px;
+  color: white;
+}
+
+.photo-credit {
+  text-align: center;
+  color: white;
+  margin-top: auto;
+  padding-bottom: 1rem ;
+}
+
+.photo-credit a{
+  font-weight: bold;
+  color: white;
+}
